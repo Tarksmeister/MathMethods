@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="RadTxt" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="RadiansBtn" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="RadALbl" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="SqrtTxt" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="178" max="-2" attributes="0"/>
+                          <Component id="SqrtBtn" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          <Component id="SqrtALbl" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="RootPromptLbl" alignment="0" min="-2" pref="656" max="-2" attributes="0"/>
+                  <Component id="RadiansPromptLbl" alignment="0" min="-2" pref="607" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="146" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="RootPromptLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="SqrtTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SqrtALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SqrtBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="RadiansPromptLbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="RadTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RadALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RadiansBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="PowerPromptlbl" max="32767" attributes="0"/>
+                              <Component id="HypotenusePromptLbl" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="BaseTxt" min="-2" pref="60" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Component id="ExpTxt" min="-2" pref="60" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                          <Component id="PowerBtn" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                          <Component id="PowerALbl" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Small1Txt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                              <Component id="Small2Txt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="SmallBtn" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                              <Component id="SmallALbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Large1Txt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                              <Component id="Large2Txt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                              <Component id="LargeBtn" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                              <Component id="LargeALbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="RoundDTxt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="RoundDBtn" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="RoundDALbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="RoundUTxt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace max="32767" attributes="0"/>
+                                              <Component id="RoundUBtn" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                              <Component id="RoundUALbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="Side1Txt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                              <Component id="Side2Txt" min="-2" pref="60" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                              <Component id="HypBtn" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                                              <Component id="HypALbl" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Component id="TitleLbl" min="-2" pref="313" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="RoundDownPromptLbl" min="-2" pref="632" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="RoundUpPromptLbl" min="-2" pref="617" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="LargerPromptlbl" min="-2" pref="548" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="SmallerPromptlbl" min="-2" pref="578" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="TitleLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="LargerPromptlbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Large1Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Large2Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LargeALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LargeBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="SmallerPromptlbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="Small1Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Small2Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="SmallALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="SmallBtn" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="19" max="32767" attributes="0"/>
+                  <Component id="PowerPromptlbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="BaseTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ExpTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="PowerALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="PowerBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Component id="HypotenusePromptLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Side1Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Side2Txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="HypALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="HypBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Component id="RoundUpPromptLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="RoundUTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RoundUALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RoundUBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Component id="RoundDownPromptLbl" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="RoundDTxt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RoundDALbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="RoundDBtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="TitleLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Math Methods Demonstration"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LargerPromptlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter 2 Numbers and click the button,  this program will display the largest of the two numbers"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="SmallerPromptlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter 2 Numbers and click the button, this program will display the smaller of the two numbers"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="PowerPromptlbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter 2 Numbers and click the button,  this program will display the first number to the power of the second"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="RoundDownPromptLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a decimal number and click the button, this program will display the value rounded down to the nearest integers."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="RoundUpPromptLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter a decimal number and click the button, this program will display the value rounded up to the nearest integer."/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="HypotenusePromptLbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter 2 side lenghts of a right angle triangle and click the button, this will find the lenght of the hypotenose"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Large1Txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Large2Txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Small1Txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Small1TxtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Small2Txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="BaseTxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="ExpTxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Side1Txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Side2Txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="RoundUTxt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="RoundDTxt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LargeALbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Answer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="SmallALbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Answer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="PowerALbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Answer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="HypALbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Answer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="RoundUALbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Answer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="RoundDALbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Answer"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="LargeBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="LargeBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="SmallBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SmallBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="PowerBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PowerBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="HypBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HypBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="RoundUBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RoundUBtnActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="RoundDBtn">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Calculate"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RoundDBtnActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="RadiansPromptLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter an angle in degrees, this program will display the angle in radians."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RootPromptLbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter an integer and click the button, this program will display the square root of the number."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SqrtTxt">
+    </Component>
+    <Component class="javax.swing.JTextField" name="RadTxt">
+    </Component>
+    <Component class="javax.swing.JLabel" name="SqrtALbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Answer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="RadALbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Answer"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="SqrtBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SqrtBtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="RadiansBtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RadiansBtnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
